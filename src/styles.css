@@ -1,0 +1,28 @@
+.App {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.graph {
+  width: 100%;
+}
+.row {
+  display: flex;
+  margin: 2px;
+}
+
+.Country {
+  flex: 1 0 20%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.max {
+  flex: 2 0 60%;
+}
+
+.numbers {
+  max-width: 20%;
+  flex: 0 0 20%;
+  font-weight: bold;
+  text-align: right;
+}
